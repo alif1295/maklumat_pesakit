@@ -42,9 +42,10 @@
          <td><?php echo $row['jantina'];?></td>
          <td width="">
   <div align="center">
-  <a href="tambah_maklumat_pesakit.php?act=edit&id_pesakit=<?php echo $row['id_pesakit']; ?>"><img src="img/edit.png" height="30px" weight="30px" /> </a>
+  <a
+class="btn btn-warning" href="tambah_maklumat_pesakit.php?act=edit&id_pesakit=<?php echo $row['id_pesakit']; ?>"> <span class="glyphicon glyphicon-pencil" title="edit"></span> </a>
    <a
-class="btn btn-danger btn-delete" href="maklumat_delete.php?id_pesakit=<?php echo $row['id_pesakit']; ?>" onclick="return confirm('Anda Pasti?');"><span class="glyphicon glyphicon-remove" title="Buang"></span></a>
+class="btn btn-danger btn-delete" href="maklumat_delete.php?id_pesakit=<?php echo $row['id_pesakit']; ?>" onclick="return confirm('Anda Pasti?');"><span class="glyphicon glyphicon-remove" title="padam"></span></a>
     </div></td>
         
         
