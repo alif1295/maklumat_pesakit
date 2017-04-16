@@ -1,9 +1,7 @@
 # maklumat_pesakit
 System Maklumat Pesakit
 
-<snippet>
-  <content><![CDATA[
-# ${1:Installation Xampp localhost and run system maklumat_pesakit in browser}
+## Installation Xampp localhost and run system maklumat_pesakit in browser
 
 1. Install XAMPP!
 2. Assume you installed xampp in C Drive. Go to: **C:\xampp\htdocs**
